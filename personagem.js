@@ -32,7 +32,6 @@ class Personagem {
     }
 }
 
-
 const meuPersonagem = new Personagem(100, 30, 20); 
 console.log("Personagem criado:");
 meuPersonagem.apresentar(); 
@@ -41,3 +40,5 @@ meuPersonagem.atacar();
 meuPersonagem.usarMana(20); 
 meuPersonagem.recuperarVida(30); 
 meuPersonagem.apresentar(); 
+
+
